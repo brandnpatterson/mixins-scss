@@ -1,0 +1,22 @@
+{
+  "name": "mixins-scss",
+  "version": "1.0.0",
+  "description": "mixins-scss",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "gulp clean && gulp"
+  },
+  "author": "Brandon Patterson",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}

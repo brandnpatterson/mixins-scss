@@ -1,0 +1,87 @@
+/***********
+Apply these classes to elements to adjust the fixed pixel height.
+***********/
+.shs-height-xsmall {
+  height: 150px; }
+
+.shs-height-small {
+  height: 250px; }
+
+.shs-height-300px {
+  height: 300px; }
+
+.shs-height-medium {
+  height: 400px; }
+
+.shs-height-500px {
+  height: 500px; }
+
+.shs-height-large {
+  height: 700px; }
+
+.shs-height-xlarge {
+  height: 900px; }
+
+@media (min-width: 640px) {
+  .shs-height-xsmall\@s {
+    height: 150px; }
+  .shs-height-small\@s {
+    height: 250px; }
+  .shs-height-300px\@s {
+    height: 300px; }
+  .shs-height-medium\@s {
+    height: 400px; }
+  .shs-height-500px\@s {
+    height: 500px; }
+  .shs-height-large\@s {
+    height: 700px; }
+  .shs-height-xlarge\@s {
+    height: 900px; } }
+
+@media (min-width: 960px) {
+  .shs-height-xsmall\@m {
+    height: 150px; }
+  .shs-height-small\@m {
+    height: 250px; }
+  .shs-height-300px\@m {
+    height: 300px; }
+  .shs-height-medium\@m {
+    height: 400px; }
+  .shs-height-500px\@m {
+    height: 500px; }
+  .shs-height-large\@m {
+    height: 700px; }
+  .shs-height-xlarge\@m {
+    height: 900px; } }
+
+@media (min-width: 1200px) {
+  .shs-height-xsmall\@l {
+    height: 150px; }
+  .shs-height-small\@l {
+    height: 250px; }
+  .shs-height-300px\@l {
+    height: 300px; }
+  .shs-height-medium\@l {
+    height: 400px; }
+  .shs-height-500px\@l {
+    height: 500px; }
+  .shs-height-large\@l {
+    height: 700px; }
+  .shs-height-xlarge\@l {
+    height: 900px; } }
+
+@media (min-width: 1600px) {
+  .shs-height-xsmall\@xl {
+    height: 150px; }
+  .shs-height-small\@xl {
+    height: 250px; }
+  .shs-height-300px\@xl {
+    height: 300px; }
+  .shs-height-medium\@xl {
+    height: 400px; }
+  .shs-height-500px\@xl {
+    height: 500px; }
+  .shs-height-large\@xl {
+    height: 700px; }
+  .shs-height-xlarge\@xl {
+    height: 900px; } }

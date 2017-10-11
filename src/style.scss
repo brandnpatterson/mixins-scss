@@ -1,0 +1,57 @@
+// ======================================================
+// # UTILITIES => HEIGHT CLASSES
+// ======================================================
+
+/***********
+Apply these classes to elements to adjust the fixed pixel height.
+***********/
+
+@mixin setSuffix($prefix, $sizes...) {
+  @each $i in $sizes {
+    .#{$prefix}#{nth($i, 1)} {
+      height: nth($i, 2);
+    }
+  } // no media query
+
+  @media (min-width: 640px) {
+    @each $i in $sizes {
+      .#{$prefix}#{nth($i, 1)}\@s {
+        height: nth($i, 2);
+      }
+    }
+  } // end @s
+
+  @media (min-width: 960px) {
+    @each $i in $sizes {
+      .#{$prefix}#{nth($i, 1)}\@m {
+        height: nth($i, 2);
+      }
+    }
+  } // end @m
+
+  @media (min-width: 1200px) {
+    @each $i in $sizes {
+      .#{$prefix}#{nth($i, 1)}\@l {
+        height: nth($i, 2);
+      }
+    }
+  } // end @l
+
+  @media (min-width: 1600px) {
+    @each $i in $sizes {
+      .#{$prefix}#{nth($i, 1)}\@xl {
+        height: nth($i, 2);
+      }
+    }
+  } // end @xl
+}
+
+@include setSuffix('height-',
+  'xsmall' 150px,
+  'small' 250px,
+  '300px' 300px,
+  'medium' 400px,
+  '500px' 500px,
+  'large' 700px,
+  'xlarge' 900px
+);
